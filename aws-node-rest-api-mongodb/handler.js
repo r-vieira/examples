@@ -16,7 +16,7 @@ const createErrorResponse = (statusCode, message) => ({
 const dbExecute = (db, fn) => db.then(fn).finally(() => db.close());
 
 function dbConnectAndExecute(dbUrl, fn) {
-  return dbExecute(mongoose.connect(dbUrl, { useMongoClient: true }), fn);
+  return dbExecute(mongoose.connect(dbUrl), fn);
 }
 
 module.exports.user = (event, context, callback) => {

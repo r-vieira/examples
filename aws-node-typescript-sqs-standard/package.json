@@ -8,7 +8,7 @@
     "lint": "tslint -p tsconfig.json -c tslint.json"
   },
   "dependencies": {
-    "aws-lambda": "^0.1.2",
+    "aws-lambda": "^1.0.5",
     "aws-sdk": "^2.553.0",
     "source-map-support": "^0.5.10"
   },
@@ -24,5 +24,12 @@
     "webpack": "^4.29.0"
   },
   "author": "Miguel Frazao (https://github.com/jmpfrazao/serverless-ts-standard-sqs)",
-  "license": "MIT"
+  "license": "MIT",
+  "overrides": {
+    "ansi-regex@4.1.0": "4.1.1",
+    "braces@2.3.2": "3.0.3",
+    "flatted@2.0.2": "3.4.2",
+    "serialize-javascript@4.0.0": "7.0.3",
+    "tmp@0.0.33": "0.2.7"
+  }
 }

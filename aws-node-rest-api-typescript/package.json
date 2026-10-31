@@ -15,7 +15,7 @@
   ],
   "dependencies": {
     "dotenv": "^8.2.0",
-    "mongoose": "^5.9.10"
+    "mongoose": "^6.13.12"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.51",
@@ -32,7 +32,7 @@
     "lambda-tester": "^4.0.1",
     "mocha": "^7.1.2",
     "nyc": "^15.0.1",
-    "serverless-offline": "^5.12.1",
+    "serverless-offline": "^8.8.1",
     "serverless-plugin-typescript": "^1.1.9",
     "sinon": "^9.0.2",
     "ts-node": "^8.9.1",

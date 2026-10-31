@@ -15,5 +15,16 @@
     "gray-matter": "^4.0.2",
     "markdown-magic": "^0.1.25"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "resolutions": {
+    "**/mkdirp/minimist": "^0.2.4",
+    "flatted": "^3.4.2",
+    "tmp": "^0.2.6",
+    "toml": "^5.0.1",
+    "underscore": "^1.13.8"
+  },
+  "overrides": {
+    "flatted@2.0.2": "3.4.2",
+    "tmp@0.0.33": "0.2.7"
+  }
 }
