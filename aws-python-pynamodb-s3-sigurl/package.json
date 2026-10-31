@@ -6,5 +6,12 @@
   "license": "MIT",
   "dependencies": {
     "serverless-python-requirements": "^5.0.1"
+  },
+  "overrides": {
+    "@simple-git/argv-parser@1.1.1": "2.0.1",
+    "adm-zip@0.5.18": "0.6.1",
+    "simple-git@3.36.0": "4.0.1",
+    "tar@6.2.1": "7.5.21",
+    "@simple-git/argv-parser@2.0.0": "2.0.1"
   }
 }

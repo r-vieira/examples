@@ -7,10 +7,23 @@
   "author": "Serverless.com",
   "license": "MIT",
   "dependencies": {
-    "js-yaml": "^3.13.0",
-    "serverless-finch": "^2.3.2"
+    "js-yaml": "^3.15.2",
+    "serverless-finch": "^4.0.4"
   },
   "devDependencies": {
     "@serverless/enterprise-plugin": "latest"
+  },
+  "overrides": {
+    "adm-zip@0.5.18": "0.6.1",
+    "minimatch@3.0.4": "3.1.4",
+    "simple-git@2.48.0": "4.0.1",
+    "tmp@0.0.33": "0.2.7",
+    "@simple-git/argv-parser@2.0.0": "2.0.1"
+  },
+  "resolutions": {
+    "**/isomorphic-fetch/node-fetch": "^2.6.7",
+    "body-parser": "^1.20.9",
+    "qs": "^6.16.1",
+    "path-to-regexp": "^0.1.13"
   }
 }

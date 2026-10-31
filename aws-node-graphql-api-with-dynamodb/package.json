@@ -13,5 +13,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "overrides": {
+    "flatted@2.0.2": "3.4.2",
+    "tmp@0.0.33": "0.2.7"
+  }
 }

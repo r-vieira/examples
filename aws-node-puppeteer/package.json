@@ -11,10 +11,27 @@
   "license": "ISC",
   "dependencies": {
     "@serverless-chrome/lambda": "^1.0.0-55",
-    "chrome-launcher": "^0.12.0",
+    "chrome-launcher": "^0.13.2",
     "puppeteer": "^2.1.0",
-    "serverless-offline": "^5.12.1",
+    "serverless-offline": "^8.1.0",
     "serverless-plugin-chrome": "^1.0.0-55.3",
     "superagent": "^5.2.1"
+  },
+  "overrides": {
+    "@hapi/content@5.0.2": "6.0.3",
+    "jsonpath-plus@5.1.0": "10.3.0",
+    "jsonwebtoken@8.5.1": "9.0.0",
+    "minimist@0.0.8": "0.2.4",
+    "@simple-git/argv-parser@1.1.1": "2.0.1",
+    "adm-zip@0.5.18": "0.6.1",
+    "simple-git@3.36.0": "4.0.1",
+    "tar@6.2.1": "7.5.21",
+    "@simple-git/argv-parser@2.0.0": "2.0.1"
+  },
+  "resolutions": {
+    "jsonwebtoken": "^9.0.0",
+    "jsonpath-plus": "^10.3.0",
+    "@hapi/content": "^6.0.3",
+    "**/mkdirp/minimist": "^0.2.4"
   }
 }
